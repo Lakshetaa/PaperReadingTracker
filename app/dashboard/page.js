@@ -57,7 +57,7 @@ export default async function DashboardPage() {
 
       {papers.length === 0 && (
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-          <p>You haven't added any papers yet.</p>
+          <p>You haven&apos;t added any papers yet.</p>
           <Link href="/add" className="btn btn-primary">
             Add Your First Paper
           </Link>

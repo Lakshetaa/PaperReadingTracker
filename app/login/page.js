@@ -42,7 +42,7 @@ export default async function LoginPage() {
       </form>
       
       <div style={{ textAlign: 'center', marginTop: '1rem' }}>
-        <p>Don't have an account? <Link href="/register">Register here</Link></p>
+        <p>Don&apos;t have an account? <Link href="/register">Register here</Link></p>
       </div>
     </div>
   );
