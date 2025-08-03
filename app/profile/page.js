@@ -2,6 +2,7 @@ import { getCurrentUser } from '../../lib/auth.js';
 import { redirect } from 'next/navigation';
 import connectDB from '../../lib/mongodb.js';
 import Paper from '../../models/Paper.js';
+export const dynamic = "force-dynamic";
 
 export default async function ProfilePage() {
   const user = await getCurrentUser();

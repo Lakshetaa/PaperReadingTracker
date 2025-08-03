@@ -2,6 +2,8 @@ import connectDB from '../lib/mongodb.js';
 import Paper from '../models/Paper.js';
 import User from '../models/User.js';
 import Link from 'next/link';
+export const dynamic = "force-dynamic";
+
 
 export default async function Home() {
   await connectDB();
